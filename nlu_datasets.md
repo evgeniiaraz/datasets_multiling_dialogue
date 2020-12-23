@@ -9,5 +9,5 @@
 | Snips         | intent classification, slot extraction   | en       | 7 domains,  including  music, weather,  restaurant | 14484 | 7         | 39      |  [Coucke et al., 2018](https://arxiv.org/abs/1805.10190)     |   [Dataset](https://github.com/sonos/nlu-benchmark)   |
 | ATIS          | intent classification, slot extraction   | en       | airline travels                                    | 5871  | 21        | 120     |   [Price, 1990](https://www.aclweb.org/anthology/H90-1020.pdf)    |       |
 
-<div align="center">Table 1: datasets in English. This list is non-exhaustive. </div>
+<div align="center">Table 1: Datasets in English. <br/> The focus of the review is multilingual task-oriented dialogue systems. Thus, the list is not exhaustive. <br/> We invite contributions of other English datasets into this table.  </div>
 
