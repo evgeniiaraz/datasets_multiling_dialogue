@@ -1,0 +1,8 @@
+| Dataset       | Task                                     | Language | Domains                                            | Size  | N intents | N slots | Paper | Link |
+|---------------|------------------------------------------|----------|----------------------------------------------------|-------|-----------|---------|-------|------|
+| Banking-77    | intent classification                    | en       | banking                                            | 13083 | 77        | N/A     |   [Casanueva et al., 2020](https://arxiv.org/abs/2003.04807)    |  [Dataset](https://github.com/PolyAI-LDN/task-specific-datasets/tree/master/banking_data)    |
+| CLINC-150     | intent classification                    | en       | 10 domains, including banking, work, travel        | 23700 | 150       | N/A     |       |      |
+| HWU-64        | intent classification, entity extraction | en       | 21 domain,  including  music, news, calendar       | 25716 | 64        | 54      |       |      |
+| Restaurant-8K | slot extraction                          | en       | restaurant booking                                 | 11929 | N/A       | 5       |       |      |
+| Snips         | intent classification, slot extraction   | en       | 7 domains,  including  music, weather,  restaurant | 14484 | 7         | 39      |       |      |
+| ATIS          | intent classification, slot extraction   | en       | airline travels                                    | 5871  | 21        | 120     |       |      |
