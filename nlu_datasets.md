@@ -14,3 +14,17 @@
 | ATIS          | intent classification, slot extraction   | en       | airline travels                                    | 5871  | 21        | 120     |   [Price, 1990](https://www.aclweb.org/anthology/H90-1020.pdf)    |       |
 
 
+#### Monolingual non-English datasets
+
+| Dataset      | Task                                       | Language | Domains                                           | Size  | # intents | # slots | Paper | Link |
+|--------------|--------------------------------------------|----------|---------------------------------------------------|-------|-----------|---------|-------|------|
+| MEDIA        | slot extraction                            | fr       | hotel  reservation                                | 15000 | N/A       | 83      |    [Bonneau-Maynard et al., 2005](https://www.isca-speech.org/archive/archive_papers/interspeech_2005/i05_3457.pdf)   |      |
+| SLU-IT       | intent classification, slot extraction     | it       | 7 domains,  including  music, weather, restaurant | 7142  | 7         | 39      |   [Castellucci et al., 2019](https://arxiv.org/abs/1907.02884)    |      |
+| Almawave-SLU | intent classification,  slot extraction    | it       | 7 domains,  including  music, weather, restaurant | 14484 | 7         | 39      |    [Bellomaria et al., 2019](https://arxiv.org/abs/1907.07526)   |   Available by email to authors   |
+|      [Zhang et al., 2017](https://arxiv.org/abs/1709.10217)        | intent classification                      | zh       | combination of chit-chat and task-oriented        | 4000  | 31        | N/A     |   [Zhang et al., 2017](https://arxiv.org/abs/1709.10217)    |  [Dataset](https://github.com/WindInWillows/SMP2018-ECDT-TASK1)    |
+| ECSA dataset | slot extraction,  named entity recognition | zh       | online commerce                                   | 27615 | N/A       | N/A*    |       |      |
+| Chinese ATIS | intent classification, slot extraction     | zh       | airline travels                                   | 5871  | 21        | 120     |   [He et al., 2013](https://ieeexplore.ieee.org/abstract/document/6639292)    |      |
+
+<div align="center">* Slots are annotated with sequence tags showing where it starts and ends.</div>
+
+
