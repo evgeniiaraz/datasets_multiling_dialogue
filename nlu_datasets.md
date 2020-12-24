@@ -25,6 +25,6 @@
 | ECSA dataset | slot extraction,  named entity recognition | zh       | online commerce                                   | 27615 | N/A       | N/A*    |       |      |
 | Chinese ATIS | intent classification, slot extraction     | zh       | airline travels                                   | 5871  | 21        | 120     |   [He et al., 2013](https://ieeexplore.ieee.org/abstract/document/6639292)    |      |
 
-<div align="center">* Slots are annotated with sequence tags showing where it starts and ends.</div>
+<div align="center">* Slots are annotated with sequence tags showing where a slot starts and ends.</div>
 
 
