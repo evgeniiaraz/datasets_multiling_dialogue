@@ -27,4 +27,13 @@
 
 <div align="center">* Slots are annotated with sequence tags showing where a slot starts and ends.</div>
 
+### Multilingual datasets
+
+| Dataset                         | Task                                    | Languages                          | Domains                                       | Size                                                       | # intents                                    | # slots                                          | Paper | Link |
+|---------------------------------|-----------------------------------------|------------------------------------|-----------------------------------------------|------------------------------------------------------------|----------------------------------------------|--------------------------------------------------|-------|------|
+| Multilingual TOP                | intent classification, slot extraction  | en, es, th                         | alarm, reminder, weather                      | 43323 [en] 8643 [es] 5082 [th]                             | 12                                           | 11                                               |       |      |
+| ATIS in Chinese  and Indonesian | slot extraction                         | en, zh, id                         | airline travels                               | 7381                                                       | N/A                                          | 120**                                            |       |      |
+| Multilingual ATIS               | intent classification, slot extraction  | en, hi, tr                         | airline travels                               | 1493 [hi] 1316 [tr]                                        | 21                                           | 120                                              |       |      |
+| MultiATIS++                     | intent classification, slot extraction  | en, es, pt, de, fr, zh, ja, hi, tr | airline travels                               | 5871 [en, es, pt, de, fr,  zh, ja] 2493 [hi] 1353 [tr]     | 18 [en, es, pt, de, fr,  zh, ja] 17 [hi, tr] | 84 [en, es, pt, de, fr,  zh, ja] 75 [hi] 71 [tr] |       |      |
+| MTOP                            | intent classification*, slot extraction | en, de, fr, es, hi, tr             | 11 domains,  including  music, news,  recipes | 18788 [en, th] 16585 [de] 16182 [es] 15459 [fr] 15195 [hi] | 117                                          | 78                                               |       |      |
 
