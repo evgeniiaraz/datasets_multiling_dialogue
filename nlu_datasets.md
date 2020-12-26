@@ -37,7 +37,7 @@
 | MultiATIS++                     | intent classification, slot extraction  | en, es, pt, <br>de, fr, zh, <br>ja, hi, tr | airline travels                               | 5871<br> 2493[hi] <br>1353[tr]     | 18<br> 17[hi,tr] | 84<br>75[hi] <br>71[tr] |   [Xu et al., 2020](https://arxiv.org/abs/2004.14353)    |   Available by email to authors; will be in LDC;   |
 | MTOP                            | intent classification<a href="#note3" id="note3ref"><sup>3</sup></a>, slot extraction | en, de, fr,<br>es, hi, tr             | 11 domains,<br>  including<br>  music, news,<br>  recipes | 18788[en,th]<br>16585[de]<br>16182[es]<br>15459[fr]<br>15195[hi] | 117                                          | 78                                               |     [Li et al., 2020](https://arxiv.org/abs/2008.09335)  | [Dataset](https://fb.me/mtop_dataset)     |
 
-<a id="note2" href="#note2ref"><sup>2</sup></a>There are 166 slots in this version of ATIS as they are represented in $\lambda$-calculus. 
+<a id="note2" href="#note2ref"><sup>2</sup></a>There are 166 slots in this version of ATIS as they are represented in $$\lambda$$-calculus. 
 
 <a id="note3" href="#note3ref"><sup>3</sup></a>The dataset is annotated with hierarchical intents; e.g., high level intent can be `create_reminder`, lower level intent can be `create_reminder_send_message`. 
 
