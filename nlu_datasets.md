@@ -1,10 +1,10 @@
-## NLU datasets
+## Natural Language Understanding datasets
 
 ### English datasets
 
 **NB:** This list is not exhaustive as main aim of the review are multilingual datasets.  We invite additions of other English datasets into this table.
 
-| Dataset       | Task                                     | Language | Domains                                            | Size  | N intents | N slots | Paper | Link |
+| Dataset       | Task                                     | Language | Domains                                            | Size  | # intents | # slots | Paper | Link |
 |---------------|------------------------------------------|----------|----------------------------------------------------|-------|-----------|---------|-------|------|
 | Banking-77    | intent classification                    | en       | banking                                            | 13083 | 77        | N/A     |   [Casanueva et al., 2020](https://arxiv.org/abs/2003.04807)    |  [Dataset](https://github.com/PolyAI-LDN/task-specific-datasets/tree/master/banking_data)    |
 | CLINC-150     | intent classification                    | en       | 10 domains, including banking, work, travel        | 23700 | 150       | N/A     |    [Larson et al., 2019](https://arxiv.org/abs/1909.02027)   |  [Dataset](https://github.com/clinc/oos-eval)    |
