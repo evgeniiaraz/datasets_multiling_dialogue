@@ -16,3 +16,10 @@
 | WOZ 2.0 | dialogue state tracking | en       | restaurant booking | 1200             | H2H       |    [Wen et al., 2017](https://arxiv.org/pdf/1604.04562.pdf), [Mrsic t al., 2017](https://arxiv.org/pdf/1606.03777.pdf)   |         |
 
 <a id="note1" href="#note1ref"><sup>1</sup></a> H2M -- human to machine dialogues; H2H -- human to human dialogues.
+
+### Multilingual datasets
+
+| Dataset              | Task                    | Language   | Domain              | Size (dialogues) | H2M / H2H | Paper | Dataset |
+|----------------------|-------------------------|------------|---------------------|------------------|-----------|-------|---------|
+| Multilingual WOZ 2.0 | dialogue state tracking | en, de, it | restaurant booking  | 1200             | H2H       |   [Mrsic et al., 2017](https://www.aclweb.org/anthology/Q17-1022/)    |     [Dataset](https://github.com/nmrksic/attract-repel)    |
+| DSTC 5               | dialogue state tracking | en, zh     | tourist information | 47               | H2H       |    [Kim et al., 2016](https://ahcweb01.naist.jp/papers/conference/2016/201612_SLT_Kim_1/201612_SLT_Kim_1.paper.pdf)   |     [Dataset](https://github.com/seokhwankim/dstc5)   |
