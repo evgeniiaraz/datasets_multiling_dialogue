@@ -39,7 +39,7 @@
 
 <a id="note2" href="#note2ref"><sup>2</sup></a>There are 166 slots in this version of ATIS as they are represented in $$\lambda$$-calculus. 
 
-<a href="#note3" id="note3ref"><sup>3</sup></a>These number are for all languages but hindi and turkish, i.e., en, es, pt, se, fr, ja, hi, tr and zh.   
+<a href="#note3" id="note3ref"><sup>3</sup></a>These number are for all languages but hindi and turkish, i.e., en, es, pt, se, fr, ja and zh.   
 
 <a id="note4" href="#note4ref"><sup>4</sup></a>The dataset is annotated with hierarchical intents; e.g., high level intent can be `create_reminder`, lower level intent can be `create_reminder_send_message`. 
 
