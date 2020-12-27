@@ -19,3 +19,10 @@
 | DuConv        | end-to-end                            | zh       | chit-chat                                          | >1 mln*          | H2H;  web-scraped from social network                            |     [Wu et al., 2017](https://www.aclweb.org/anthology/P17-1046/)  |   [Dataset](https://github.com/MarkWuNLP/MultiTurnResponseSelection)      |
 | KdConv        | end-to-end                            | zh       | chit-chat  about films, music,  travel             | 4500             | H2H; using an external  knowledge  base                          |   [Zhou et al., 2020](https://arxiv.org/abs/2004.04100)    |     [Dataset](https://github.com/thu-coai/KdConv)    |
 | WMT 2020 Chat | end-to-end                            | de       | 6 domains including ordering pizza, movie tickets  | 692              | H2H; translated  from Taskmaster-1; part of WMT 2020  challenge; |  not available yet     |    [Dataset](http://www.statmt.org/wmt20/chat-task.html)     |
+
+
+### Multilingual datasets
+
+| Dataset  | Task       | Languages                  | Domain                    | Size (dialogues)                                                       | Comments                                           | Paper | Dataset |
+|----------|------------|----------------------------|---------------------------|------------------------------------------------------------------------|----------------------------------------------------|-------|---------|
+| XPersona | end-to-end | en, it, fr, id, zh, ko, ja | chit-chat (persona chats) | 19893[en] 17158[it] 17375[fr] 17846[id] 17322[zh] 17477[ko] 17428[[ja] | H2H;  automatically translated  from [ConvAI2](https://arxiv.org/abs/1902.00098) (dataset [here](https://parl.ai/projects/convai2/)) |   [Lin et al., 2020](https://arxiv.org/abs/2003.07568)    |    [Dataset](https://github.com/HLTCHKUST/Xpersona)     |
