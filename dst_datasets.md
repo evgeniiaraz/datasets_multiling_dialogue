@@ -19,7 +19,13 @@
 
 ### Multilingual datasets
 
-| Dataset              | Task                    | Language   | Domain              | Size (dialogues) | H2M / H2H | Paper | Dataset |
+| Dataset              | Task                    | Language   | Domain              | Size (dialogues) | H2M / H2H<a href="#note1" id="note1ref"><sup>1</sup></a> | Paper | Dataset |
 |----------------------|-------------------------|------------|---------------------|------------------|-----------|-------|---------|
 | Multilingual WOZ 2.0 | dialogue state tracking | en, de, it | restaurant booking  | 1200             | H2H       |   [Mrsic et al., 2017](https://www.aclweb.org/anthology/Q17-1022/)    |     [Dataset](https://github.com/nmrksic/attract-repel)    |
 | DSTC 5               | dialogue state tracking | en, zh     | tourist information | 47               | H2H       |    [Kim et al., 2016](https://ahcweb01.naist.jp/papers/conference/2016/201612_SLT_Kim_1/201612_SLT_Kim_1.paper.pdf)   |     [Dataset](https://github.com/seokhwankim/dstc5)   |
+| DSTC 6               | dialogue breakdown detection | en, ja     | chit-chat | 615[en] 1696[ja] <a href="#note2" id="note2ref"><sup>2</sup></a>               | H2M       |    [Hori et al., 2019](https://www.sciencedirect.com/science/article/pii/S0885230818300937)   |     [Dataset](https://dbd-challenge.github.io/dbdc3/data/)   |
+
+
+<a id="note1" href="#note1ref"><sup>1</sup></a> H2M -- human to machine dialogues; H2H -- human to human dialogues.
+
+<a id="note2" href="#note2ref"><sup>2</sup></a> number of dialogues is the number of interaction sessions.
