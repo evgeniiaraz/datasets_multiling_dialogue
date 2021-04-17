@@ -24,6 +24,7 @@
 |      [Zhang et al., 2017](https://arxiv.org/abs/1709.10217)        | intent classification                      | zh       | combination of chit-chat and task-oriented        | 4000  | 31        | N/A     |   [Zhang et al., 2017](https://arxiv.org/abs/1709.10217)    |  [Dataset](https://github.com/WindInWillows/SMP2018-ECDT-TASK1)    |
 | ECSA dataset | slot extraction,  named entity recognition | zh       | online commerce                                   | 27615 | N/A       | N/A<a href="#note1" id="note1ref"><sup>1</sup></a>    |   [Gong et al., 2019](https://arxiv.org/abs/1803.11326)    |   [Dataset](https://drive.google.com/drive/folders/1wRR4oCmYumA7TXMcQtQxvT8vaJIZMus-)   |
 | Chinese ATIS | intent classification, slot extraction     | zh       | airline travels                                   | 5871  | 21        | 120     |   [He et al., 2013](https://ieeexplore.ieee.org/abstract/document/6639292)    |      |
+| Vietnamese ATIS | intent classification, slot extraction     | vi       | airline travels                                   | 5871  | 25        | 120     |   [Dao et al., 2021](https://arxiv.org/abs/2104.02021)    |    [Dataset](https://github.com/VinAIResearch/JointIDSF)  |
 
 <a id="note1" href="#note1ref"><sup>1</sup></a>Slots are annotated with sequence tags showing where a slot starts and ends.
 
